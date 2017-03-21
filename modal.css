@@ -1,0 +1,82 @@
+.navs {
+  display: inline;
+  padding-right: 100px;
+}
+
+.navlink {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+.navbar {
+  background-color: rgba(227, 242, 240, 0.4);
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+}
+
+#logo {
+  width: 50px;
+}
+
+body {
+  background-color: silver;
+  background-image: linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445);
+  font-family: 'Prompt', sans-serif;
+}
+
+.modal {
+  display: block;
+  width: 500px;
+  height: 100px;
+  position: fixed;
+  z-index: 100;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  box-shadow: 0 0 80px 20px rgba(0, 0, 0, 0.9);
+  font-size: 15px;
+}
+
+.close-button {
+  display: block;
+  font-size: 5px;
+}
+
+.modal .close-button {
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  right: 20px;
+  border: 0;
+  background: black;
+  color: white;
+  padding: 5px 10px;
+  font-size: 1.3rem;
+}
+
+#hidden_modal{
+  display: none;
+}
+
+.modals{
+  display:block;
+}
+
+.modals {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  padding-top: 0px 20px 0px 0px;
+}
